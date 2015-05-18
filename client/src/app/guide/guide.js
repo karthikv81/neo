@@ -8,7 +8,7 @@ cloudStbApp.controller('channelController', ['$scope', 'channelData', '$timeout'
 
 }]);
 
-cloudStbApp.controller('programController', ['$scope', 'data', '$stateParams', 'programList', function ($scope, data, $stateParams, programList) {
+cloudStbApp.controller('programController', ['$scope', 'data', '$stateParams', 'programList', 'twitter', function ($scope, data, $stateParams, programList, twitter) {
 
    // var _videoURL;
       var _channelIndex;
@@ -41,7 +41,7 @@ cloudStbApp.controller('programController', ['$scope', 'data', '$stateParams', '
         /*  VideoPlayer.play(_videoURL);*/
        // VideoPlayer.play('192.168.0.33/epg/WebKit.mp4');
 
-        playMyChannel(_channelIndex);
+       // playMyChannel(_channelIndex);
     }
 
     // If ProgramId exists then, we can traverse programList to find Program Info for that particular id
@@ -63,6 +63,14 @@ cloudStbApp.controller('programController', ['$scope', 'data', '$stateParams', '
 
                 $scope.programInfo = _programInfo;
             }
+        });
+
+        //Read the twits against a program #hashTag
+        twitter.getTwits('Steve Jobs').then(function (response) {
+            var _twits = response.data.name;
+            $scope.twits = _twits;
+        }, function (error) {
+
         });
     }
 

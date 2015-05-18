@@ -11,10 +11,10 @@ cloudStbApp.config(function($stateProvider, $stickyStateProvider, $urlRouterProv
         '@':   { templateUrl: 'templates/partials/tabs.tpl.html',
                  controller: function () {
 
-                     settings_manager.getLastLcn(function(lcn) {
+                    /* settings_manager.getLastLcn(function(lcn) {
                          log.error('First Play');
                          getLcn(lcn);
-                     });
+                     });*/
 
                      //Setting focus to 'View By Channel' Tab on page display
                      $('#byChannel').focus();

@@ -6,7 +6,7 @@ var express = require('express'),
     serveStatic = require('serve-static'),
 	config = require('./config/config.js'),
     routes = require('./lib/routes/'),
-    socialRoutes = require('./lib/routes/tweet.js'),
+    twitterRouter = require('./lib/routes/tweet.js'),
     mongoose = require('mongoose'),
     twitter = require('ntwitter'),
     streamHandler = require('./lib/utility/streamHandler.js'),
@@ -111,6 +111,6 @@ app.use('/', router);
 app.use('/epg/', validate, routes);
 
 // Call Tweet Router for Twitter messages
-app.use('/tweet/', socialRoutes);
+app.use('/tweet/', twitterRouter);
 
 module.exports = app;
