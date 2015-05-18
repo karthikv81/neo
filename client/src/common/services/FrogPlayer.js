@@ -1,50 +1,50 @@
-  /*var _config = {
-        *//**
+  var _config = {
+        /**
          * Defining middleware access mode: 'rest' for real one, 'stubbed' for stubbed one
-         *//*
+         */
         mw_type: {
             url_arg: 'mw',
             default: "rest",
             expected: ["rest", "stubbed"]
         },
-        *//**
+        /**
          * ip used for remote debugging
-         *//*
+         */
         stb_ip: {
             url_arg: 'ip',
             default: "127.0.0.1"
         },
-        *//**
+        /**
          * RCU key mappings to use
-         *//*
+         */
         rcu: {
             url_arg: 'rcu',
             default: "keyboard",
             expected: ["keyboard", "ruwido", "ruwido_ir", "nangmab"]
         },
-        *//**
+        /**
          * Location of the logging console: set-top box or development desktop
-         *//*
+         */
         log_env: {
             url_arg: 'env',
             default: "stb",
             expected: ["stb", "dev", "dsk"]
         },
-        *//**
+        /**
          * Defining logging threshold level:
          * can be one of string : ["DEBUG", "INFO", "WARN", "ERROR", "FATAL", "NONE"]
          * or their num values  : [0, 1, 2, 3, 4, 5].
-         *//*
+         */
         log_treshold: {
             url_arg: 'lvl',
             default: "WARN",
             expected: ["NONE", "DEBUG", "INFO", "WARN", "ERROR", "FATAL"]
         },
-        *//**
+        /**
          * Defining log filter:
          * Comma separated list of strings to match log msg against
          * ex: "SettingsSection,RecordSection"
-         *//*
+         */
         log_filter: {
             url_arg: 'lvf',
             default: "",
@@ -52,9 +52,9 @@
                 return ( typeof lvf === 'string' ) ? lvf.split(',') : [];
             }
         },
-        *//**
+        /**
          * Default locale domain
-         *//*
+         */
         locale: {
             url_arg: 'lg',
             default: "en",
@@ -63,23 +63,23 @@
                 return "locale-"+ locale.toLowerCase() +"_"+ locale.toUpperCase();
             }
         },
-        *//**
+        /**
          * Sources (styles and scripts) loading mode
-         *//*
+         */
         src: {
             url_arg: 'src',
             default: "raw",
             expected: ["min", "raw"]
         },
-        *//**
+        /**
          * Scripts sources paths
-         *//*
+         */
         scripts_path: {
             default: 'assets/js'
         },
-        *//**
+        /**
          * Styles source paths
-         *//*
+         */
         styles_path: {
             default: "assets/css"
         }
@@ -231,7 +231,7 @@
                 playMyChannel( channel_index );
             }
         }
-    };*/
+    };
 
 /*
      settings_manager.getLastLcn(function(lcn) {
