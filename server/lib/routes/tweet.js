@@ -1,8 +1,8 @@
 'use strict';
 
 var express = require('express'),
-    twitterRouter = express.Router();
-    //Tweet = require('../models/tweet');
+    twitterRouter = express.Router(),
+    TweetProvider = require('../modules/tweet.js');
 
 
 /*twitterRouter.get('/', function (req, res) {
@@ -13,11 +13,21 @@ var express = require('express'),
 });*/
 
 twitterRouter.get('/read', function (req, res) {
-    var x = {
-        name: 'tw'
-    };
+    var hashTag = req.query.hashTag;
 
-    res.json(x);
+    TweetProvider.fetchTweets(hashTag, function (result) {
+        res.json(result);
+    });
+
+});
+
+twitterRouter.get('/write', function (req, res) {
+    var hashTag = req.query.hashTag;
+
+    TweetProvider.sendTweets(hashTag, function (result) {
+        res.json(result);
+    });
+
 });
 
 module.exports = twitterRouter;

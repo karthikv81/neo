@@ -10,7 +10,15 @@ cloudStbApp.factory('twitter', [ '$http', '$q', function ($http, $q) {
         return $http({method: 'GET', url: _url});
     }
 
+    //Get twits based on #hashtag input parameter
+    function sendTwits (hashTag) {
+        var _url = 'http://192.168.0.99:8080/tweet/write?hashTag=' + hashTag;
+
+        return $http({method: 'GET', url: _url});
+    }
+
     return {
-        getTwits: getTwits
+        getTwits: getTwits,
+        sendTwits: sendTwits
     }
 }]);

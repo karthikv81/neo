@@ -66,9 +66,10 @@ cloudStbApp.controller('programController', ['$scope', 'data', '$stateParams', '
         });
 
         //Read the twits against a program #hashTag
-        twitter.getTwits('Steve Jobs').then(function (response) {
-            var _twits = response.data.name;
-            $scope.twits = _twits;
+        twitter.getTwits(_programInfo.Title).then(function (response) {
+            console.log(response.data.tData);
+            $scope.twits = response.data.tData;
+
         }, function (error) {
 
         });

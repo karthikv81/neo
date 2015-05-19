@@ -20,7 +20,14 @@
                 <button class="btn btn-primary btn-lg btn-block">Tweet</button>
             </a>
          </div>
-            <div>{{twits}}</div>
+            <div>
+                <ul>
+                    <li data-ng-repeat="(key, value) in twits">
+                        {{value}}
+                    </li>
+                </ul>
+
+            </div>
     </div>
 
     <div class="col-md-6">
