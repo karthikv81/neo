@@ -16,18 +16,16 @@
             <a href="#" class="list-group-item">
                 <p class="list-group-item-text">AiringTime: {{programInfo.AiringTime}}</p>
             </a>
-            <a href="#" class="list-group-item">
-                <button class="btn btn-primary btn-lg btn-block">Tweet</button>
-            </a>
+            <button class="btn btn-primary btn-lg btn-block" ng-click="sendTweet()">Tweet</button>
          </div>
-            <div>
-                <ul>
-                    <li data-ng-repeat="(key, value) in twits">
-                        {{value}}
-                    </li>
-                </ul>
-
-            </div>
+        <div>
+            <ul ng-show="twits.length > 0">
+                <li data-ng-repeat="(key, value) in twits track by $index">
+                    {{value}}
+                </li>
+            </ul>
+            <div ng-show="twits.length === 0">No Tweets Available</div>
+        </div>
     </div>
 
     <div class="col-md-6">

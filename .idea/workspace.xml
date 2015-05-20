@@ -2,92 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9a7d129-4be8-41eb-b841-48e02fe71a52" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/stars.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/config/cloud.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/common/directives/rowHeader.tpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/content_bl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/lib/routes/tweet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/series.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/styles/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/widescreen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/Hmenu_selected_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/lib/modules/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/guide/rowHeader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/lib/middleware/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/common/services/VideoPlayer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/common/services/generateUniqueId.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/tweeet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/lib/utility/streamHandler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/sel_clip_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/hidef.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/fsv/fsv.tpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/config/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/guide/guide.tpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/protected.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/content_c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/guide/guide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/angular-node-STB.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/now.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/guide/columWidthFilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/fsv/fsvController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/subtitles.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/lib/routes/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/guide_mouseover.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/btn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/common/services/EventManager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/content_b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/content_s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/guide_selected_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/guide/tileModel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/bin/www.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/guide/gridService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/protected.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/Hmenu_selected_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/config/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/lib/modules/index.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/lib/models/tweet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/common/services/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/common/services/datetime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/guide/guideManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/subtitles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/guide/tileModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/sel_clip_r.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/content_s.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/bin/www.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/series.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/config/cloud.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/guide_mouseover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/guide_selected_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/guide/guide.tpl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/common/services/EventManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/angular-node-STB.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/content_b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/guide/guide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/guide/gridService.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/sel_clip_l.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/fsv/fsvController.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/captions.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/rerun.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/app.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/content_r.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/stars.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/fsv/fsv.tpl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/lib/middleware/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/hidef.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/lib/utility/streamHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/common/services/generateUniqueId.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/guide/rowHeader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/common/services/VideoPlayer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/styles/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/common/directives/rowHeader.tpl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/content_bl.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/lib/models/index.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/.gitignore" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/common/services/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/guide/columWidthFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/guide/guideManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/widescreen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/lib/routes/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/tweeet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/now.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/common/services/datetime.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/rerun.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/icons/content_c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/lib/routes/tweet.js" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/client/vendor/note.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/app/module-1/module-1.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/app/module-2/module-2.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/header.tpl.html" afterPath="$PROJECT_DIR$/client/src/app/header.tpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/test/unit/app/module-1/module-1.spec.js" afterPath="$PROJECT_DIR$/client/test/unit/app/module-1/module-1.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/gulpFile.js" afterPath="$PROJECT_DIR$/client/gulpFile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/test/unit/app/module-2/module-2.spec.js" afterPath="$PROJECT_DIR$/client/test/unit/app/module-2/module-2.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/README.md" afterPath="$PROJECT_DIR$/client/src/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/footer.tpl.html" afterPath="$PROJECT_DIR$/client/src/app/footer.tpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/assets/img/spinner.gif" afterPath="$PROJECT_DIR$/client/src/assets/img/spinner.gif" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/app/module-1/module-1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/.gitignore" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/app.js" afterPath="$PROJECT_DIR$/client/src/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/test/unit/common/directives/directive-1.spec.js" afterPath="$PROJECT_DIR$/client/test/unit/common/directives/directive-1.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/package.json" afterPath="$PROJECT_DIR$/server/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/test/config/unit.js" afterPath="$PROJECT_DIR$/client/test/config/unit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/build.config.js" afterPath="$PROJECT_DIR$/client/build.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/assets/img/glyphicons-halflings.png" afterPath="$PROJECT_DIR$/client/src/assets/img/glyphicons-halflings.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/app.spec.js" afterPath="$PROJECT_DIR$/client/src/app/app.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/bower.json" afterPath="$PROJECT_DIR$/client/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/package.json" afterPath="$PROJECT_DIR$/client/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/test/vendor/angular/angular-mocks.js" afterPath="$PROJECT_DIR$/client/test/vendor/angular/angular-mocks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/index.html" afterPath="$PROJECT_DIR$/client/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/assets/img/glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/client/src/assets/img/glyphicons-halflings-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/.bowerrc" afterPath="$PROJECT_DIR$/client/.bowerrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/README.md" afterPath="$PROJECT_DIR$/client/src/app/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/README.md" afterPath="$PROJECT_DIR$/client/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/test/unit/common/services/service-1.spec.js" afterPath="$PROJECT_DIR$/client/test/unit/common/services/service-1.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/test/unit/app/module-2/module-2.spec.js" afterPath="$PROJECT_DIR$/client/test/unit/app/module-2/module-2.spec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/assets/favicon.ico" afterPath="$PROJECT_DIR$/client/src/assets/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/test/vendor/angular/angular-mocks.js" afterPath="$PROJECT_DIR$/client/test/vendor/angular/angular-mocks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/test/unit/common/services/service-1.spec.js" afterPath="$PROJECT_DIR$/client/test/unit/common/services/service-1.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/.bowerrc" afterPath="$PROJECT_DIR$/client/.bowerrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/index.html" afterPath="$PROJECT_DIR$/client/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/README.md" afterPath="$PROJECT_DIR$/client/src/app/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/test/config/unit.js" afterPath="$PROJECT_DIR$/client/test/config/unit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/bower.json" afterPath="$PROJECT_DIR$/client/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/README.md" afterPath="$PROJECT_DIR$/client/src/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/package.json" afterPath="$PROJECT_DIR$/client/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/package.json" afterPath="$PROJECT_DIR$/server/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/assets/img/spinner.gif" afterPath="$PROJECT_DIR$/client/src/assets/img/spinner.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/gulpFile.js" afterPath="$PROJECT_DIR$/client/gulpFile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/footer.tpl.html" afterPath="$PROJECT_DIR$/client/src/app/footer.tpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/app.spec.js" afterPath="$PROJECT_DIR$/client/src/app/app.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/assets/img/glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/client/src/assets/img/glyphicons-halflings-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/build.config.js" afterPath="$PROJECT_DIR$/client/build.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/test/unit/app/module-1/module-1.spec.js" afterPath="$PROJECT_DIR$/client/test/unit/app/module-1/module-1.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/README.md" afterPath="$PROJECT_DIR$/client/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/assets/img/glyphicons-halflings.png" afterPath="$PROJECT_DIR$/client/src/assets/img/glyphicons-halflings.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/test/unit/common/directives/directive-1.spec.js" afterPath="$PROJECT_DIR$/client/test/unit/common/directives/directive-1.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/app/header.tpl.html" afterPath="$PROJECT_DIR$/client/src/app/header.tpl.html" />
     </list>
     <ignored path="angular-node-STB.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -118,8 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/package.json" />
-        <option value="$PROJECT_DIR$/server/gulpFile.js" />
         <option value="$PROJECT_DIR$/server/bin/www.js" />
         <option value="$PROJECT_DIR$/server/lib/models/rovi.js" />
         <option value="$PROJECT_DIR$/server/lib/modules/rovi.js" />
@@ -161,14 +159,16 @@
         <option value="$PROJECT_DIR$/server/config/config.js" />
         <option value="$PROJECT_DIR$/server/npm-debug.log" />
         <option value="$PROJECT_DIR$/server/app.js" />
-        <option value="$PROJECT_DIR$/client/src/common/partials/programInfo.tpl.html" />
         <option value="$PROJECT_DIR$/client/src/index.html" />
         <option value="$PROJECT_DIR$/client/src/app/app.js" />
-        <option value="$PROJECT_DIR$/client/src/app/guide/guide.js" />
         <option value="$PROJECT_DIR$/client/src/common/services/FrogPlayer.js" />
-        <option value="$PROJECT_DIR$/client/src/common/services/twitter.js" />
-        <option value="$PROJECT_DIR$/server/lib/routes/tweet.js" />
         <option value="$PROJECT_DIR$/server/lib/modules/tweet.js" />
+        <option value="$PROJECT_DIR$/server/lib/routes/tweet.js" />
+        <option value="$PROJECT_DIR$/client/src/common/services/twitter.js" />
+        <option value="$PROJECT_DIR$/client/src/common/directives/modal.js" />
+        <option value="$PROJECT_DIR$/client/src/app/guide/guide.js" />
+        <option value="$PROJECT_DIR$/client/src/common/partials/programInfo.tpl.html" />
+        <option value="$PROJECT_DIR$/client/debug/jshint-output.html" />
       </list>
     </option>
   </component>
@@ -177,9 +177,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1375" />
-    <option name="height" value="876" />
+    <option name="height" value="904" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -204,6 +204,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -222,9 +223,106 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-node-STB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-node-STB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-node-STB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-node-STB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-node-STB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-node-STB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-node-STB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-node-STB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-node-STB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-node-STB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="debug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,14 +377,10 @@
       <ConfigurationWrapper RunnerId="Basic" />
       <method />
     </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <method />
-    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -294,6 +388,10 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -349,12 +447,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1375" height="876" extended-state="6" />
+    <frame x="65" y="-4" width="1375" height="904" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32866243" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2577548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -365,12 +464,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7240099" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32866243" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -398,20 +496,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/dist/templates/partials/channel/channel.tpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="781">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/dist/templates/footer.tpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="781">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/dist/templates/header.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="781">
@@ -603,26 +687,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/common/directives/slickSlider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="758">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/lib/middleware/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="758">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/common/services/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61744964" vertical-offset="155" max-vertical-offset="900">
-          <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -630,7 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="734">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -638,7 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -646,7 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5343008" vertical-offset="0" max-vertical-offset="758">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -654,7 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9261745" vertical-offset="0" max-vertical-offset="1830">
           <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -670,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2176781" vertical-offset="0" max-vertical-offset="855">
           <caret line="11" column="12" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -678,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="585">
           <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -686,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="758">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -694,6 +755,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17810026" vertical-offset="0" max-vertical-offset="1785">
           <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38255033" vertical-offset="0" max-vertical-offset="745">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/common/services/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="900">
+          <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6539509" vertical-offset="0" max-vertical-offset="734">
+          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/common/services/FrogPlayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6833773" vertical-offset="2932" max-vertical-offset="3690">
+          <caret line="230" column="29" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -706,74 +798,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/index.html">
+    <entry file="file://$PROJECT_DIR$/client/src/common/directives/slickSlider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.592643" vertical-offset="0" max-vertical-offset="734">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/common/services/FrogPlayer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.762533" vertical-offset="2932" max-vertical-offset="3690">
-          <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/guide/guide.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2147651" vertical-offset="485" max-vertical-offset="1245">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="0" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25725594" vertical-offset="60" max-vertical-offset="1920">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.4050132" vertical-offset="0" max-vertical-offset="1920">
+          <caret line="71" column="38" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/common/directives/modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="758">
+          <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/common/partials/programInfo.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42915532" vertical-offset="0" max-vertical-offset="734">
-          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.3678474" vertical-offset="0" max-vertical-offset="734">
+          <caret line="18" column="98" selection-start-line="18" selection-start-column="98" selection-end-line="18" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/guide/guide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66442955" vertical-offset="630" max-vertical-offset="1425">
+          <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/common/services/twitter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29683378" vertical-offset="0" max-vertical-offset="758">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
+        <state vertical-scroll-proportion="0.25725594" vertical-offset="0" max-vertical-offset="758">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/config/config.js">
+    <entry file="file://$PROJECT_DIR$/server/lib/modules/tweet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38255033" vertical-offset="0" max-vertical-offset="745">
-          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.8218997" vertical-offset="592" max-vertical-offset="1350">
+          <caret line="81" column="6" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/lib/routes/tweet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5145119" vertical-offset="0" max-vertical-offset="758">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.35620052" vertical-offset="0" max-vertical-offset="758">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/lib/modules/tweet.js">
+    <entry file="file://$PROJECT_DIR$/client/debug/jshint-output.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6635884" vertical-offset="592" max-vertical-offset="1350">
-          <caret line="73" column="34" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.35367545" vertical-offset="0" max-vertical-offset="7770">
+          <caret line="17" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="512" selection-end-column="7" />
           <folding />
         </state>
       </provider>

@@ -44,15 +44,19 @@ cloudStbApp.controller('programController', ['$scope', 'data', '$stateParams', '
         playMyChannel(_channelIndex);
     }
 
+    var _programInfo = {};
+
     // If ProgramId exists then, we can traverse programList to find Program Info for that particular id
     if ($stateParams.pid) {
         var _programList =  $scope.programList;
 
-        var _programInfo = {};
+       // var _programInfo = {};
 
         angular.forEach(_programList, function(singleProgram, key) {
             if (singleProgram.Programs['ProgramId'] === $stateParams.pid) {
-                _programInfo.Title = singleProgram.Programs['Title'];
+
+                //Store the Program Title in scope to be accessed in 'Tweet' Button click
+                _programInfo.Title = $scope.currentProgramTitle = singleProgram.Programs['Title'];
                 _programInfo.Category = singleProgram.Programs['Category'];
                 _programInfo.Duration = singleProgram.Programs['Duration'];
                 _programInfo.Subcategory = singleProgram.Programs['Subcategory'];
@@ -67,12 +71,20 @@ cloudStbApp.controller('programController', ['$scope', 'data', '$stateParams', '
 
         //Read the twits against a program #hashTag
         twitter.getTwits(_programInfo.Title).then(function (response) {
-            console.log(response.data.tData);
             $scope.twits = response.data.tData;
 
         }, function (error) {
 
         });
     }
+
+    //Tweet the current program
+    $scope.sendTweet = function () {
+        twitter.sendTweets(_programInfo.Title).then(function (response) {
+            console.log(response);
+        }, function (err) {
+            console.log(err);
+        });
+    };
 
 }]);
