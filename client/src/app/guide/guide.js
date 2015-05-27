@@ -8,7 +8,7 @@ cloudStbApp.controller('channelController', ['$scope', 'channelData', '$timeout'
 
 }]);
 
-cloudStbApp.controller('programController', ['$scope', 'data', '$stateParams', 'programList', 'twitter', function ($scope, data, $stateParams, programList, twitter) {
+cloudStbApp.controller('programController', ['$scope', 'data', '$stateParams', 'programList', 'twitter', 'dateTime' ,function ($scope, data, $stateParams, programList, twitter, dateTime) {
 
    // var _videoURL;
       var _channelIndex;
@@ -61,7 +61,7 @@ cloudStbApp.controller('programController', ['$scope', 'data', '$stateParams', '
                 _programInfo.Duration = singleProgram.Programs['Duration'];
                 _programInfo.Subcategory = singleProgram.Programs['Subcategory'];
                 _programInfo.TVRating = singleProgram.Programs['TVRating'];
-                _programInfo.AiringTime = singleProgram.Programs['AiringTime'];
+                _programInfo.AiringTime = dateTime.getCustomDate(singleProgram.Programs['AiringTime']);
                 _programInfo.Dolby = singleProgram.Programs['Dolby'];
                 _programInfo.Stereo = singleProgram.Programs['Stereo'];
 

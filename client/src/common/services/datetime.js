@@ -81,18 +81,19 @@ function getCustomDate (proDate) {
     var d=new Date(proDate),
         weekday=new Array(7);
 
-    weekday[0]="Sun";
-    weekday[1]="Mon";
-    weekday[2]="Tue";
-    weekday[3]="Wed";
-    weekday[4]="Thu";
-    weekday[5]="Fri";
-    weekday[6]="Sat";
+    weekday[0]="Sunday";
+    weekday[1]="Monday";
+    weekday[2]="Tuesday";
+    weekday[3]="Wednesday";
+    weekday[4]="Thursday";
+    weekday[5]="Friday";
+    weekday[6]="Saturday";
 
-    dm = ((d.getMonth() + 1).toString().length==1)? "0"+(d.getMonth() + 1): d.getMonth() + 1; 
-    dd = (d.getDate().toString().length==1)?"0"+d.getDate():d.getDate();
+    var dm = ((d.getMonth() + 1).toString().length==1)? "0"+(d.getMonth() + 1): d.getMonth() + 1;
+    var dd = (d.getDate().toString().length==1)?"0"+d.getDate():d.getDate();
+    var year = d.getFullYear();
     
-    return weekday[d.getDay()]+ " " + dm+"/"+dd;
+    return weekday[d.getDay()]+ " " + dm + "-" + dd + "-" + year;
   }
 
  return {
