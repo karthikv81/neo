@@ -2,7 +2,7 @@ cloudStbApp.controller('channelController', ['$scope', 'channelData', '$timeout'
 
     // Service IDs i.e. channel Ids
     var channelList = channelData.data;
-    $scope.channelList = channelList;
+    $scope.channelList = channelList.splice(0, 6);
 
     //VideoPlayer.play('192.168.0.33/epg/WebKit.mp4');
 
@@ -41,7 +41,7 @@ cloudStbApp.controller('programController', ['$scope', 'data', '$stateParams', '
         /*  VideoPlayer.play(_videoURL);*/
        // VideoPlayer.play('192.168.0.33/epg/WebKit.mp4');
 
-        playMyChannel(_channelIndex);
+        //playMyChannel(_channelIndex);
     }
 
     // If ProgramId exists then, we can traverse programList to find Program Info for that particular id

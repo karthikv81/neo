@@ -1,32 +1,31 @@
-<section id="section3">
-    <div class="col-md-6">
-         <div class="list-group">
-            <a href="#" class="list-group-item active">
-               <h2 class="list-group-item-heading">Info</h2>
-            </a>
-            <a href="#" class="list-group-item">
-                <p class="list-group-item-text">Title: {{programInfo.Title}}</p>
-            </a>
-            <a href="#" class="list-group-item">
-                <p class="list-group-item-text">Category: {{programInfo.Category}}</p>
-            </a>
-            <a href="#" class="list-group-item">
-                <p class="list-group-item-text">Duration: {{programInfo.Duration}}</p>
-            </a>
-            <a href="#" class="list-group-item">
-                <p class="list-group-item-text">AiringTime: {{programInfo.AiringTime}}</p>
-            </a>
-            <a href="#" class="list-group-item">
-                <button class="btn btn-primary btn-lg btn-block">Tweet</button>
-            </a>
-         </div>
-    </div>
-
-    <div class="col-md-6">
-        <div class="list-group">
-            <a href="#" class="list-group-item active">
+<div id="infobar">
+    <section id="section3">
+        <div class="col-md-6 posterBar">
+            <a href="#" class="list-group-item active image">
                 <img ng-src="/dist/assets/posters/poster-1.jpg" width="100%" />
             </a>
         </div>
-    </div>
-</section>
+        <div class="col-md-6 descBar">
+            <div class="title">{{programInfo.Title}}</div>
+            <div class="description"><span id="dot">{{programInfo.Category}}  &nbsp;&#183;&nbsp;</span>
+                <span id="dot">{{programInfo.Duration}} min &nbsp;&#183;&nbsp;</span>
+                <span id="dot">{{programInfo.AiringTime}} &nbsp;&#183;&nbsp;</span>
+                <span id="rating"><img src="./assets/img/rating.png"/></span><br/>
+                <div class="desc">Caffery (Martin Lawrence) is a professional thief with taste and style who is trying to rob billionaire tycoon Max Fairbanks' (Danny DeVito) unoccupied beachfront mansion. But in the middle of the robbery, he finds himself face to face with Fairbanks.</div>
+            </div>
+    </section>
+
+
+    <section id="section4">
+        <div id="tweetWidget">
+            <div class="tweetBtn"><button class="btn btn-primary btn-lg btn-block">Tweet</button></div>
+            <div class="tweets">
+                <div>
+                    <span>Using Kebo Twitter Feed, you can exhibit your Twitter feed beautifully in just 60 seconds &nbsp;&#x0007C;&nbsp;</span>
+                    <span>Using Kebo Twitter Feed, you can exhibit your Twitter feed beautifully in just 60 seconds &nbsp;&#x0007C;&nbsp;</span>
+                    <span>Using Kebo Twitter Feed, you can exhibit your Twitter feed beautifully in just 60 seconds &nbsp;&#x0007C;&nbsp;</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
