@@ -61,7 +61,7 @@ cloudStbApp.controller('programController', ['$scope', 'data', '$stateParams', '
                 _programInfo.Duration = singleProgram.Programs['Duration'];
                 _programInfo.Subcategory = singleProgram.Programs['Subcategory'];
                 _programInfo.TVRating = singleProgram.Programs['TVRating'];
-                _programInfo.AiringTime = dateTime.getCustomDate(singleProgram.Programs['AiringTime']);
+                _programInfo.AiringTime = dateTime.getCustomStartEndTime(singleProgram.Programs['Duration'], singleProgram.Programs['AiringTime']);
                 _programInfo.Dolby = singleProgram.Programs['Dolby'];
                 _programInfo.Stereo = singleProgram.Programs['Stereo'];
                 _programInfo.key = key;

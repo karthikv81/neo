@@ -6,15 +6,14 @@
             </a>
         </div>
         <div class="col-md-6 descBar">
-            <div class="title">{{programInfo.Title}}</div>
-            <div class="description"><span id="dot">{{programInfo.Category}}  &nbsp;&#183;&nbsp;</span>
-                <span id="dot">{{programInfo.Duration}} min &nbsp;&#183;&nbsp;</span>
-                <span id="dot">{{programInfo.AiringTime}} &nbsp;&#183;&nbsp;</span>
-                <span id="rating"><img src="./assets/img/rating.png"/></span><br/>
-                <span id="dot">{{programInfo.Subcategory}} &nbsp;&#183;&nbsp;</span>
-                <span id="dot">{{programInfo.Subcategory}} &nbsp;&#183;&nbsp;</span>
+            <div class="title">
+                <div>{{programInfo.Title}}</div>
+                <div class="infoCat">{{programInfo.Category}}<span>&nbsp;&#183;&nbsp;</span>{{programInfo.AiringTime}}<span>&nbsp;&#183;&nbsp;</span>{{programInfo.TVRating}}</div>
+            </div>
+            <div class="description">
+                <span class="contentTitle">Sub category:</span> <span class="contentVal">{{programInfo.Subcategory}}</span><br/>
+                <span  class="contentTitle">Duration:</span> <span class="contentVal">{{programInfo.Duration}} min</span><br/>
                 <span id="hdIcon"><img src="./assets/img/hd_icon.gif"/></span>
-                <div class="desc">Caffery (Martin Lawrence) is a professional thief with taste and style who is trying to rob billionaire tycoon Max Fairbanks' (Danny DeVito) unoccupied beachfront mansion. But in the middle of the robbery, he finds himself face to face with Fairbanks.</div>
             </div>
     </section>
 

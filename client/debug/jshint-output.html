@@ -55,8 +55,14 @@
 </tr><tr class="warning">
     <td class="text-center">W069</td>
     <td class="text-center">64</td>
-    <td class="text-center">88</td>
-    <td><code>                _programInfo.AiringTime = dateTime.getCustomDate(singleProgram.Programs[&#039;AiringTime&#039;]);</code></td>
+    <td class="text-center">96</td>
+    <td><code>                _programInfo.AiringTime = dateTime.getCustomStartEndTime(singleProgram.Programs[&#039;Duration&#039;], singleProgram.Programs[&#039;AiringTime&#039;]);</code></td>
+    <td>[&#039;Duration&#039;] is better written in dot notation.</td>
+</tr><tr class="warning">
+    <td class="text-center">W069</td>
+    <td class="text-center">64</td>
+    <td class="text-center">132</td>
+    <td><code>                _programInfo.AiringTime = dateTime.getCustomStartEndTime(singleProgram.Programs[&#039;Duration&#039;], singleProgram.Programs[&#039;AiringTime&#039;]);</code></td>
     <td>[&#039;AiringTime&#039;] is better written in dot notation.</td>
 </tr><tr class="warning">
     <td class="text-center">W069</td>
@@ -73,7 +79,7 @@
 </tr>
     </table>
     <div class="well">
-    Found <span class="label label-default">9</span> failures - <span class="label label-danger">0 errors</span> &amp; <span class="label label-warning">9 warnings</span>
+    Found <span class="label label-default">10</span> failures - <span class="label label-danger">0 errors</span> &amp; <span class="label label-warning">10 warnings</span>
 </div>
 </div>
 
@@ -256,6 +262,70 @@
             <th>Evidence</th>
             <th>Reason</th>
         </tr>
+        <tr><td colspan="5"><b>/home/user/suthakar/neo/client/src/common/directives/modal.js</b></td></tr><tr class="warning">
+    <td class="text-center">W041</td>
+    <td class="text-center">22</td>
+    <td class="text-center">26</td>
+    <td><code>                if(value == true)</code></td>
+    <td>Use &#039;===&#039; to compare with &#039;true&#039;.</td>
+</tr>
+    </table>
+    <div class="well">
+    Found <span class="label label-default">1</span> failures - <span class="label label-danger">0 errors</span> &amp; <span class="label label-warning">1 warnings</span>
+</div>
+</div>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JSHint Report</title>
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container-fluid">
+    <table class="table table-hover">
+        <tr>
+            <th class="text-center">Code</th>
+            <th class="text-center">Line</th>
+            <th class="text-center">Column</th>
+            <th>Evidence</th>
+            <th>Reason</th>
+        </tr>
+        <tr><td colspan="5"><b>/home/user/suthakar/neo/client/src/common/directives/slickSlider.js</b></td></tr><tr class="warning">
+    <td class="text-center">W033</td>
+    <td class="text-center">9</td>
+    <td class="text-center">6</td>
+    <td><code>    }</code></td>
+    <td>Missing semicolon.</td>
+</tr>
+    </table>
+    <div class="well">
+    Found <span class="label label-default">1</span> failures - <span class="label label-danger">0 errors</span> &amp; <span class="label label-warning">1 warnings</span>
+</div>
+</div>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JSHint Report</title>
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container-fluid">
+    <table class="table table-hover">
+        <tr>
+            <th class="text-center">Code</th>
+            <th class="text-center">Line</th>
+            <th class="text-center">Column</th>
+            <th>Evidence</th>
+            <th>Reason</th>
+        </tr>
         <tr><td colspan="5"><b>/home/user/suthakar/neo/client/src/common/services/VideoPlayer.js</b></td></tr><tr class="warning">
     <td class="text-center">W033</td>
     <td class="text-center">15</td>
@@ -373,70 +443,6 @@
         <tr><td colspan="5"><b>/home/user/suthakar/neo/client/src/common/services/twitter.js</b></td></tr><tr class="warning">
     <td class="text-center">W033</td>
     <td class="text-center">23</td>
-    <td class="text-center">6</td>
-    <td><code>    }</code></td>
-    <td>Missing semicolon.</td>
-</tr>
-    </table>
-    <div class="well">
-    Found <span class="label label-default">1</span> failures - <span class="label label-danger">0 errors</span> &amp; <span class="label label-warning">1 warnings</span>
-</div>
-</div>
-
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>JSHint Report</title>
-
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-</head>
-<body>
-
-<div class="container-fluid">
-    <table class="table table-hover">
-        <tr>
-            <th class="text-center">Code</th>
-            <th class="text-center">Line</th>
-            <th class="text-center">Column</th>
-            <th>Evidence</th>
-            <th>Reason</th>
-        </tr>
-        <tr><td colspan="5"><b>/home/user/suthakar/neo/client/src/common/directives/modal.js</b></td></tr><tr class="warning">
-    <td class="text-center">W041</td>
-    <td class="text-center">22</td>
-    <td class="text-center">26</td>
-    <td><code>                if(value == true)</code></td>
-    <td>Use &#039;===&#039; to compare with &#039;true&#039;.</td>
-</tr>
-    </table>
-    <div class="well">
-    Found <span class="label label-default">1</span> failures - <span class="label label-danger">0 errors</span> &amp; <span class="label label-warning">1 warnings</span>
-</div>
-</div>
-
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>JSHint Report</title>
-
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-</head>
-<body>
-
-<div class="container-fluid">
-    <table class="table table-hover">
-        <tr>
-            <th class="text-center">Code</th>
-            <th class="text-center">Line</th>
-            <th class="text-center">Column</th>
-            <th>Evidence</th>
-            <th>Reason</th>
-        </tr>
-        <tr><td colspan="5"><b>/home/user/suthakar/neo/client/src/common/directives/slickSlider.js</b></td></tr><tr class="warning">
-    <td class="text-center">W033</td>
-    <td class="text-center">9</td>
     <td class="text-center">6</td>
     <td><code>    }</code></td>
     <td>Missing semicolon.</td>
