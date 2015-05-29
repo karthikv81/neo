@@ -25,6 +25,7 @@
             <div class="tweetBtn"><button class="btn btn-primary btn-lg btn-block" ng-click="sendTweet()">Tweet</button></div>
             <div class="tweets">
                 <div>
+                    <span ng-show="tweetMsgShow" class="tweetMsg">Please wait for the Tweets.....</span>
                     <marquee>
                         <ul ng-show="twits.length > 0">
                             <li data-ng-repeat="(key, value) in twits track by $index">
@@ -32,7 +33,7 @@
                             </li>
                          </ul>
                     </marquee>
-                    <div ng-show="twits.length === 0" class="noTweet">No Tweets Available</div>
+                    <div ng-show="twits.length === 0" class="noTweet">Sorry! No Tweets Available</div>
                 </div>
             </div>
         </div>

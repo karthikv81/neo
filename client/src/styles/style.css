@@ -31,6 +31,10 @@ body {
     margin-left: 10px;
 }
 
+.tweetMsg {
+    font-size: 12px;
+}
+
 .navbar-default {
     opacity: .7;
 }

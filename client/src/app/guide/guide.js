@@ -51,6 +51,8 @@ cloudStbApp.controller('programController', ['$scope', 'data', '$stateParams', '
         var _programList =  $scope.programList;
 
        // var _programInfo = {};
+        //Ask user to wait for tweets to come
+        $scope.tweetMsgShow = true;
 
         angular.forEach(_programList, function(singleProgram, key) {
             if (singleProgram.Programs['ProgramId'] === $stateParams.pid) {
@@ -72,6 +74,10 @@ cloudStbApp.controller('programController', ['$scope', 'data', '$stateParams', '
 
         //Read the twits against a program #hashTag
         twitter.getTwits(_programInfo.Title).then(function (response) {
+            //Since Tweet response has come, wait is over
+            $scope.tweetMsgShow = false;
+
+            //Set the tweet data
             $scope.twits = response.data.tData;
 
         }, function (error) {
@@ -87,11 +93,13 @@ cloudStbApp.controller('programController', ['$scope', 'data', '$stateParams', '
         twitter.sendTweets(_programInfo.Title).then(function (response) {
             //Hide the default Tweet Button clicked Msg
             $scope.tweetBtnClicked = false;
+
             //Show the tweet success message
             $scope.isTweetSuccess = true;
         }, function (err) {
             //Hide the default Tweet Button clicked Msg
             $scope.tweetBtnClicked = false;
+
             //Show the tweet failure message
             $scope.isTweetFail = true;
         });
