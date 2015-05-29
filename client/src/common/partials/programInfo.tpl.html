@@ -36,5 +36,16 @@
                 </div>
             </div>
         </div>
+        <div ng-show="tweetBtnClicked" class="tweetSuccessMsg">
+            Waiting ...........
+        </div>
+        <div ng-show="isTweetSuccess" class="tweetSuccessMsg">
+            Your Tweet is Successful.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="closeTweetMsg('success')"><span aria-hidden="true">×</span></button>
+        </div>
+        <div ng-show="isTweetFail" class="tweetFailedMsg">
+            Your Tweet is Failed.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="closeTweetMsg('failed')"><span aria-hidden="true">×</span></button>
+        </div>
     </section>
 </div>

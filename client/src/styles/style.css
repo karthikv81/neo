@@ -1,4 +1,3 @@
-
 body {
 
 
@@ -8,6 +7,28 @@ body {
     position: relative;
     overflow: hidden;
 
+}
+
+.tweetSuccessMsg {
+    width: 20%;
+    height: 30px;
+    line-height: 24px;
+    padding: 5px;
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    margin-left: 10px;
+}
+
+.tweetFailedMsg {
+    width: 20%;
+    height: 30px;
+    line-height: 24px;
+    padding: 5px;
+    color: #FF0000;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    margin-left: 10px;
 }
 
 .navbar-default {

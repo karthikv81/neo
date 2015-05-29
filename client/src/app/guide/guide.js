@@ -81,11 +81,31 @@ cloudStbApp.controller('programController', ['$scope', 'data', '$stateParams', '
 
     //Tweet the current program
     $scope.sendTweet = function () {
+        //Show the default Tweet Button clicked Msg
+        $scope.tweetBtnClicked = true;
+
         twitter.sendTweets(_programInfo.Title).then(function (response) {
-            console.log(response);
+            //Hide the default Tweet Button clicked Msg
+            $scope.tweetBtnClicked = false;
+            //Show the tweet success message
+            $scope.isTweetSuccess = true;
         }, function (err) {
-            console.log(err);
+            //Hide the default Tweet Button clicked Msg
+            $scope.tweetBtnClicked = false;
+            //Show the tweet failure message
+            $scope.isTweetFail = true;
         });
+    };
+
+    //Close the tweet alert message area
+    $scope.closeTweetMsg = function (type) {
+        if (type === 'success' ) {
+            //Hide the tweet success message
+            $scope.isTweetSuccess = false;
+        } else {
+            //Hide the tweet failure message
+            $scope.isTweetFail = false;
+        }
     };
 
 }]);
