@@ -8,24 +8,25 @@
         <div class="col-md-6 descBar">
             <div class="title">{{programInfo.Title}}</div>
             <div class="description"><span id="dot">{{programInfo.Category}}  &nbsp;&#183;&nbsp;</span>
-                <span id="dot">{{programInfo.Duration}} min &nbsp;&#183;&nbsp;</span>
-                <span id="dot">{{programInfo.AiringTime}} &nbsp;&#183;&nbsp;</span>
+                <span>{{programInfo.Duration}} min &nbsp;&#183;&nbsp;</span>
+                <span>{{programInfo.AiringTime}} &nbsp;&#183;&nbsp;</span>
                 <span id="rating"><img src="./assets/img/rating.png"/></span><br/>
-                <span id="dot">{{programInfo.Subcategory}} &nbsp;&#183;&nbsp;</span>
-                <span id="dot">{{programInfo.Subcategory}} &nbsp;&#183;&nbsp;</span>
+                <span>{{programInfo.Subcategory}} &nbsp;&#183;&nbsp;</span>
+                <span>{{programInfo.Subcategory}} &nbsp;&#183;&nbsp;</span>
                 <span id="hdIcon"><img src="./assets/img/hd_icon.gif"/></span>
                 <div class="desc">Caffery (Martin Lawrence) is a professional thief with taste and style who is trying to rob billionaire tycoon Max Fairbanks' (Danny DeVito) unoccupied beachfront mansion. But in the middle of the robbery, he finds himself face to face with Fairbanks.</div>
             </div>
+        </div>
     </section>
 
 
     <section id="section4">
         <div id="tweetWidget">
-            <div class="tweetBtn"><button class="btn btn-primary btn-lg btn-block">Tweet</button></div>
+            <div class="tweetBtn"><button class="btn btn-primary btn-lg btn-block" ng-click="sendTweet()">Tweet</button></div>
             <div class="tweets">
                 <div>
                     <marquee>
-                        <ul  ng-http-loader ng-show="twits.length > 0">
+                        <ul ng-show="twits.length > 0">
                             <li data-ng-repeat="(key, value) in twits track by $index">
                                 {{value}}
                             </li>
