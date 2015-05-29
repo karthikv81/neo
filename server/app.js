@@ -6,10 +6,8 @@ var express = require('express'),
     serveStatic = require('serve-static'),
 	config = require('./config/config.js'),
     routes = require('./lib/routes/'),
-    socialRoutes = require('./lib/routes/tweet.js'),
+    twitterRouter = require('./lib/routes/tweet.js'),
     mongoose = require('mongoose'),
-    twitter = require('ntwitter'),
-    streamHandler = require('./lib/utility/streamHandler.js'),
 	cors = require('cors'),
 	morgan = require('morgan'),
 	Err = require('custom-err'),
@@ -28,7 +26,7 @@ var express = require('express'),
 mongoose.connect('mongodb://localhost:27017/TweetDB');
 
 // Create a new ntwitter instance
-var twit = new twitter(config.twitter);
+//var twit = new twitter(config.twitter);
 
 
 // Parse application/json
@@ -100,9 +98,9 @@ router.get('/', function (req, res) {
 });
 
 // Set a stream listener for tweets matching tracking keywords
-twit.stream('statuses/filter', { track: 'scotch_io, #scotchio'}, function (stream) {
+/*twit.stream('statuses/filter', { track: 'scotch_io, #scotchio'}, function (stream) {
     streamHandler(stream);
-});
+});*/
 
 // Call the router
 app.use('/', router);
@@ -111,6 +109,6 @@ app.use('/', router);
 app.use('/epg/', validate, routes);
 
 // Call Tweet Router for Twitter messages
-app.use('/tweet/', socialRoutes);
+app.use('/tweet/', twitterRouter);
 
 module.exports = app;

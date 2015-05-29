@@ -7,7 +7,7 @@ body {
 
     position: relative;
     overflow: hidden;
-    /*-webkit-filter: grayscale(100%);*/
+
 }
 
 .navbar-default {
@@ -65,7 +65,7 @@ video {
     background: -webkit-linear-gradient(#138898, #125367);
     background: linear-gradient(#138898, #125367);
     color: #fff;
-
+    margin-top: 23px;
 }
 
 .navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:hover {
@@ -194,9 +194,9 @@ video {
 #infobar{
     background: rgba(80,74,75,0.65);
 
-    border: 1px solid rgba(47,39,41,0.85);
-    width: 1165px;
-    height: 328px;
+
+    width: 1169px;
+    height: 323px;
     border-radius: 6px;
     padding: 5px;
 }
@@ -204,8 +204,8 @@ video {
 
 #section3 {
 
-    background: rgba(80,74,75,0.30);
-    border: 1px solid rgba(47,39,41,0.55);
+
+
     width: 1154px;
     height: 316px;
     border-radius: 6px;
@@ -232,7 +232,7 @@ video {
     background: rgba(0, 0, 0, 0.50);
     border-radius: 6px;
 
-    width: 764px;
+    width: 769px;
     font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
 #section3 .description{
@@ -244,7 +244,7 @@ video {
     font-weight: lighter;
     font-size: 24px;
     padding: 17px;
-    width: 763px;
+    width: 769px;
     font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
 #section3 .desc {
@@ -285,19 +285,19 @@ video {
 
 #section4{
     position: absolute;
-    top: 610px;
-    width: 1137px;
+    top: 630px;
+    width: 1144px;
     margin-left: 7px;
 
 }
 
 .tweets{
     height: 29px;
-    width: 965px;
+    width: 971px;
     color: rgb(24,52,76);
     background: rgba(255,255,255,0.75);
-    /* border-bottom-left-radius: 6px; */
-    /* border-bottom-right-radius: 6px; */
+
+
     position: absolute;
     top: 10px;
     border-radius: 6px;
@@ -324,17 +324,17 @@ video {
     text-decoration: none;
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
     background-color: #21759B;
-    background-image: linear-gradient(to bottom, #2A95C5, #21759B);
+    background: -webkit-linear-gradient(#2A95C5, #21759B);
     padding: 0px;
 }
 #tweetWidget button:hover {
     background-color: #278ab7;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#2e9fd2), to(#21759b));
-    background-image: -webkit-linear-gradient(top, #2e9fd2, #21759b);
+    background: -webkit-linear-gradient(#2e9fd2, #21759b);
     background-image: -moz-linear-gradient(top, #2e9fd2, #21759b);
     background-image: -ms-linear-gradient(top, #2e9fd2, #21759b);
     background-image: -o-linear-gradient(top, #2e9fd2, #21759b);
-    background-image: linear-gradient(to bottom, #2e9fd2, #21759b);
+    background: -webkit-linear-gradient(#2e9fd2, #21759b);
     border-color: #1b607f;
     -webkit-box-shadow: inset 0 1px 0 rgba(120, 200, 230, 0.6);
     box-shadow: inset 0 1px 0 rgba(120, 200, 230, 0.6);
@@ -371,4 +371,20 @@ video {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
     background-color: #555;
+}
+.tweets ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.tweets ul li{
+    display: inline;
+}
+div.noTweet{
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
+#hdIcon img{
+    height: 25px;
 }

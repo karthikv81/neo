@@ -2,7 +2,7 @@
     <section id="section3">
         <div class="col-md-6 posterBar">
             <a href="#" class="list-group-item active image">
-                <img ng-src="/dist/assets/posters/poster-1.jpg" width="100%" />
+                <img ng-src="/dist/assets/posters/poster{{programInfo.key}}.jpg" width="100%" />
             </a>
         </div>
         <div class="col-md-6 descBar">
@@ -11,6 +11,9 @@
                 <span id="dot">{{programInfo.Duration}} min &nbsp;&#183;&nbsp;</span>
                 <span id="dot">{{programInfo.AiringTime}} &nbsp;&#183;&nbsp;</span>
                 <span id="rating"><img src="./assets/img/rating.png"/></span><br/>
+                <span id="dot">{{programInfo.Subcategory}} &nbsp;&#183;&nbsp;</span>
+                <span id="dot">{{programInfo.Subcategory}} &nbsp;&#183;&nbsp;</span>
+                <span id="hdIcon"><img src="./assets/img/hd_icon.gif"/></span>
                 <div class="desc">Caffery (Martin Lawrence) is a professional thief with taste and style who is trying to rob billionaire tycoon Max Fairbanks' (Danny DeVito) unoccupied beachfront mansion. But in the middle of the robbery, he finds himself face to face with Fairbanks.</div>
             </div>
     </section>
@@ -21,9 +24,14 @@
             <div class="tweetBtn"><button class="btn btn-primary btn-lg btn-block">Tweet</button></div>
             <div class="tweets">
                 <div>
-                    <span>Using Kebo Twitter Feed, you can exhibit your Twitter feed beautifully in just 60 seconds &nbsp;&#x0007C;&nbsp;</span>
-                    <span>Using Kebo Twitter Feed, you can exhibit your Twitter feed beautifully in just 60 seconds &nbsp;&#x0007C;&nbsp;</span>
-                    <span>Using Kebo Twitter Feed, you can exhibit your Twitter feed beautifully in just 60 seconds &nbsp;&#x0007C;&nbsp;</span>
+                    <marquee>
+                        <ul  ng-http-loader ng-show="twits.length > 0">
+                            <li data-ng-repeat="(key, value) in twits track by $index">
+                                {{value}}
+                            </li>
+                         </ul>
+                    </marquee>
+                    <div ng-show="twits.length === 0" class="noTweet">No Tweets Available</div>
                 </div>
             </div>
         </div>

@@ -12,9 +12,9 @@ module.exports = {
     "tribuneCollection"   : "tribune"
   },
   twitter: {
-       consumer_key: 'g9xpOwRQvn1Yy5c2cOip28V2B',
-       consumer_secret: 'hTP1CpviMHEJcdXpWUC8s44qHjOCAuqkpcZBKm3qtGb7Uo2GTi',
-       access_token_key: '1122906733-oiqpR1vUWWxY5EMNCUzL4Jmnlfnq72400sBcm7k',
-       access_token_secret: 'DK0Ql7QFlzFfqOhnEOgrZeQSXXMFGtLbKfQyUJdC2BVmG'
+      consumerKey: 'lrDlPQpxVIjjJkZRrFKML39j7',
+      consumerSecret:'UTAbXSkhvr4twQ0cLF1zk03Pjqhmi86gHmgvGJI9KuCbRihGZ7',
+      accessToken: '3160833378-Szl7RSF2yogMR1jAlIeP8BR85QWvUTa5oJ0XFOG',
+      accessTokenSecret: 'VTvNApA6ecGkAipq8pNjvCAcGkciv76VgADrSGHo59L9q'
   }
 };
