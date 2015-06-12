@@ -2,7 +2,7 @@ cloudStbApp.controller('channelController', ['$scope', 'channelData', '$timeout'
 
     // Service IDs i.e. channel Ids
     var channelList = channelData.data;
-    $scope.channelList = channelList.splice(0,8);
+    $scope.channelList = channelList;
 
     //VideoPlayer.play('192.168.0.33/epg/WebKit.mp4');
 
