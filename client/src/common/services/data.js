@@ -41,8 +41,8 @@ cloudStbApp.factory('data', [ '$http', '$q', 'WEBSERVICE_CONFIG', function ($htt
       //var startEndTime = datetime.UTCLocalTimeConversion();
 
       // Replace hard coded value with the properties in 'startEndTime' object
-      var userStartTime = '2015-05-27T04:00:00Z',
-          userEndTime = '2015-05-27T20:00:00Z';
+      var userStartTime = '2015-06-15T08:00:00Z',
+          userEndTime = '2015-06-15T20:30:00Z';
 
       var _url = WEBSERVICE_CONFIG.SERVER_URL + '/epg/programs?user=rovi&sourceId=' + sourceID + '&userStartTime=' + userStartTime + '&userEndTime=' + userEndTime;
 
