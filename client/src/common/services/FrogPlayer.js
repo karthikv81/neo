@@ -1,3 +1,4 @@
+/*
  var _config = {
 
         mw_type: {
@@ -208,6 +209,7 @@
             }
         }
     };
+*/
 
 /*
      settings_manager.getLastLcn(function(lcn) {
