@@ -209,8 +209,8 @@
             }
         }
     };
-*/
 
+*/
 /*
      settings_manager.getLastLcn(function(lcn) {
          log.error('First Play');

@@ -23,7 +23,7 @@ cloudStbApp.config(function($stateProvider, $stickyStateProvider, $urlRouterProv
         views: {
         '@':   { templateUrl: 'templates/partials/tabs.tpl.html',
                  controller: function () {
-                     /*settings_manager.getLastLcn(function(lcn) {
+                    /* settings_manager.getLastLcn(function(lcn) {
                          log.error('First Play');
                          getLcn(lcn);
                      });*/
