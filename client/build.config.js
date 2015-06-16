@@ -40,7 +40,7 @@ module.exports = {
      */
     test_files: {
         js: [
-            'vendor/angular-mocks/angular-mocks.js'
+            /*'vendor/angular-mocks/angular-mocks.js'*/
         ]
     },
 
@@ -68,7 +68,7 @@ module.exports = {
     vendor_files: {
         js: [
             'vendor/bower_components/jquery/dist/jquery.min.js',
-            'vendor/bower_components/angular/angular.min.js',
+            'vendor/bower_components/angular/angular.js',
             'vendor/bower_components/angular-resource/angular-resource.min.js',
             'vendor/bower_components/angular-ui-router/release/angular-ui-router.min.js',
             'vendor/bower_components/ui-router-extras/release/ct-ui-router-extras.min.js',

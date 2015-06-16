@@ -1,4 +1,3 @@
-
 body {
 
 
@@ -9,13 +8,41 @@ body {
     overflow: hidden;
 
 }
+a.channelCarousel:focus {
+    outline: 1;
+}
+.tweetSuccessMsg {
+    width: 20%;
+    height: 30px;
+    line-height: 24px;
+    padding: 5px;
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    margin-left: 10px;
+}
+
+.tweetFailedMsg {
+    width: 20%;
+    height: 30px;
+    line-height: 24px;
+    padding: 5px;
+    color: #FF0000;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    margin-left: 10px;
+}
+
+.tweetMsg {
+    font-size: 12px;
+}
 
 .navbar-default {
     opacity: .7;
 }
 
 .slick-slider {
-    padding: 10px 0 10px 20px;
+    padding: 10px 0 10px 0px;
     margin-bottom: 18px;
 }
 
@@ -93,7 +120,6 @@ video {
     background: rgba(0, 0, 0, 0.6);
     height: 150px;
 }
-
 #section2 {
     background-color: #5F5F5F;
     color: #686868;
@@ -120,6 +146,11 @@ video {
 .col-md-6 {
     padding-left: 0;
 }
+div.slick-list{
+    /*margin-left: 10px;*/
+    padding: 0px 15px;
+    margin-right: 9px;
+}
 #section1 .slick-track{
     height: 130px;
 }
@@ -127,17 +158,30 @@ video {
     width: 210px;
     height: 100px;
     margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
     background: rgba(255, 255, 255, 0.1);
 }
-#section1 div.slick-center{
-    margin-left: 15px;
-    margin-right: 15px;
+#section1 div.animateFirst{
+    /*margin-right: 10px;
+    margin-left: 10px;*/
     background: rgba(255, 255, 255, 0.25);
-    transform: scale3d(1.14,1.14,1);
-    transition: 633ms ease-in-out;
-    /*display: list-item;*/
+    -webkit-transform: scale3d(1.10,1.10,1);
+    -webkit-transition: transform 633ms ease-in-out 0s;
+
+}
+#section1 div.animateFirst + div{
+    margin-left: 10px;
+}
+
+/*
+#section1 div.slick-center + div{
+     margin-left: 35px;
+}*/
+#section1 .slick-slider{
+    /*  padding: 10px 5px;
+      margin-left: 10px;*/
+    margin-right: 10px;
 }
 #section1 div.slick-slide img{
     margin: 0px auto;
@@ -145,6 +189,7 @@ video {
     height: 100%;
     display: inline;
 }
+
 #section2 {
 
     color: #686868;
@@ -154,35 +199,44 @@ video {
 }
 
 #section2 div.my-slide{
-    width: 212px;
+    width: 210px;
 
     background: rgba(255, 255, 255, 0.20);
     border-radius: 5px;
     height: 60px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /*margin-left: 10px;*/
     text-align: center;
     margin-top: 5px;
     display: table;
 }
-#section2 div.my-slide:first-child{
+#section2 div.animateFirst{
     width: 210px;
     border-radius: 5px;
-    margin-right: 20px;
-    height: 70px;
     text-align: center;
-
     color: #000;
-
     background-color: rgba(173,177,165,0.75);
     border: 0px;
-    margin-top: 0px;
     display: table;
-}
+    -webkit-transform: scale3d(1.10,1.12,1);
+    -webkit-transition: 633ms ease-in-out;
+    /* margin-left: 10px;
+    margin-right: 10px;*/
+}/*
+#section2 div.slick-center + div{
+    margin-left: 15px;
+}*/
 #section2 .slick-slider a{
     display: table-cell;
     vertical-align: middle;
     font-size: 18px;
-    padding: 5px;
+    /*padding: 5px;*/
+}
+#section2 .slick-slider{
+    /*padding: 5px;
+    margin-left: 10px;*/
+    margin-right: 10px;
 }
 #section2 div.my-slide:first-child a {
 
@@ -248,13 +302,21 @@ video {
     background: rgba(0,0,0,0.50);
     border-radius: 6px;
     margin-top: 8px;
-    height: 178px;
+    height: 180px;
     color: #e1d4b6;
     font-weight: lighter;
     font-size: 24px;
-    padding: 17px;
+    padding: 5px;
+    padding-left: 15px;
     width: 769px;
     font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+#section3 .contentTitle{
+    color: #7893AD;
+}
+#section3 .contentVal{
+    color: #CDCDCD;
+    font-size: 20px;
 }
 #section3 .desc {
     color: #BABABA;
@@ -271,7 +333,7 @@ video {
 #section3 .posterBar{
     width: 33%;
 }
-#infobar .infoSubTitle{
+#section3 .infoSubTitle{
     color: #6A6C6E;
     font-size: 27px;
 }
@@ -294,7 +356,7 @@ video {
 
 #section4{
     position: absolute;
-    top: 630px;
+    top: 632px;
     width: 1144px;
     margin-left: 7px;
 
@@ -395,5 +457,5 @@ div.noTweet{
 }
 
 #hdIcon img{
-    height: 25px;
+    height: 22px;
 }

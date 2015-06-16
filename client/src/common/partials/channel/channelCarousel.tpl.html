@@ -1,11 +1,11 @@
-<section id="section1">
-    <div slick-slider="{dots: false, arrows: false, draggable: false, slidesToShow:5, infinite:true, centerMode: true, variableWidth: true}">
+<div id="section1">
+    <div slick-slider="{dots: false, arrows: false, draggable: false, slidesToShow:5, infinite:true}">
         <div class="my-slide" ng-repeat="channel in channelList track by $index">
            <!-- <a ui-sref=".channel({cid: channel.SourceId})" class="channelCarousel"><img ng-src="./assets/channels_logo/logo3.png" /></a>-->
-             <a ui-sref=".channel({cid: channel.SourceId})" class="channelCarousel"><img ng-src="{{channel.channelImage}}" /></a>
+             <a ui-sref=".channel({cid: channel.SourceId})" class="channelCarousel"><img ng-src="/dist/{{channel.channelImage}}" /></a>
             <!--<a ui-sref=".channel({cid: channel.SourceId})" class="channelCarousel ng-cloak">{{channel.SourceId}}</a>-->
         </div>
     </div>
-</section>
+</div>
 
 <div ui-view></div>

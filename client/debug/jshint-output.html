@@ -18,68 +18,80 @@
         </tr>
         <tr><td colspan="5"><b>/home/user/suthakar/neo/client/src/app/guide/guide.js</b></td></tr><tr class="warning">
     <td class="text-center">W069</td>
-    <td class="text-center">56</td>
+    <td class="text-center">60</td>
     <td class="text-center">39</td>
     <td><code>            if (singleProgram.Programs[&#039;ProgramId&#039;] === $stateParams.pid) {</code></td>
     <td>[&#039;ProgramId&#039;] is better written in dot notation.</td>
 </tr><tr class="warning">
     <td class="text-center">W069</td>
-    <td class="text-center">59</td>
+    <td class="text-center">63</td>
     <td class="text-center">89</td>
     <td><code>                _programInfo.Title = $scope.currentProgramTitle = singleProgram.Programs[&#039;Title&#039;];</code></td>
     <td>[&#039;Title&#039;] is better written in dot notation.</td>
 </tr><tr class="warning">
     <td class="text-center">W069</td>
-    <td class="text-center">60</td>
+    <td class="text-center">64</td>
     <td class="text-center">63</td>
     <td><code>                _programInfo.Category = singleProgram.Programs[&#039;Category&#039;];</code></td>
     <td>[&#039;Category&#039;] is better written in dot notation.</td>
 </tr><tr class="warning">
     <td class="text-center">W069</td>
-    <td class="text-center">61</td>
+    <td class="text-center">65</td>
     <td class="text-center">63</td>
     <td><code>                _programInfo.Duration = singleProgram.Programs[&#039;Duration&#039;];</code></td>
     <td>[&#039;Duration&#039;] is better written in dot notation.</td>
 </tr><tr class="warning">
     <td class="text-center">W069</td>
-    <td class="text-center">62</td>
+    <td class="text-center">66</td>
     <td class="text-center">66</td>
     <td><code>                _programInfo.Subcategory = singleProgram.Programs[&#039;Subcategory&#039;];</code></td>
     <td>[&#039;Subcategory&#039;] is better written in dot notation.</td>
 </tr><tr class="warning">
     <td class="text-center">W069</td>
-    <td class="text-center">63</td>
+    <td class="text-center">67</td>
     <td class="text-center">63</td>
     <td><code>                _programInfo.TVRating = singleProgram.Programs[&#039;TVRating&#039;];</code></td>
     <td>[&#039;TVRating&#039;] is better written in dot notation.</td>
 </tr><tr class="warning">
     <td class="text-center">W069</td>
-    <td class="text-center">64</td>
+    <td class="text-center">68</td>
     <td class="text-center">96</td>
     <td><code>                _programInfo.AiringTime = dateTime.getCustomStartEndTime(singleProgram.Programs[&#039;Duration&#039;], singleProgram.Programs[&#039;AiringTime&#039;]);</code></td>
     <td>[&#039;Duration&#039;] is better written in dot notation.</td>
 </tr><tr class="warning">
     <td class="text-center">W069</td>
-    <td class="text-center">64</td>
+    <td class="text-center">68</td>
     <td class="text-center">132</td>
     <td><code>                _programInfo.AiringTime = dateTime.getCustomStartEndTime(singleProgram.Programs[&#039;Duration&#039;], singleProgram.Programs[&#039;AiringTime&#039;]);</code></td>
     <td>[&#039;AiringTime&#039;] is better written in dot notation.</td>
 </tr><tr class="warning">
     <td class="text-center">W069</td>
-    <td class="text-center">65</td>
+    <td class="text-center">69</td>
     <td class="text-center">60</td>
     <td><code>                _programInfo.Dolby = singleProgram.Programs[&#039;Dolby&#039;];</code></td>
     <td>[&#039;Dolby&#039;] is better written in dot notation.</td>
 </tr><tr class="warning">
     <td class="text-center">W069</td>
-    <td class="text-center">66</td>
+    <td class="text-center">70</td>
     <td class="text-center">61</td>
     <td><code>                _programInfo.Stereo = singleProgram.Programs[&#039;Stereo&#039;];</code></td>
     <td>[&#039;Stereo&#039;] is better written in dot notation.</td>
+</tr><tr class="warning">
+    <td class="text-center">W069</td>
+    <td class="text-center">71</td>
+    <td class="text-center">57</td>
+    <td><code>                _programInfo.HD = singleProgram.Programs[&#039;HD&#039;];</code></td>
+    <td>[&#039;HD&#039;] is better written in dot notation.</td>
+</tr><tr class="warning">
+    <td class="text-center">W069</td>
+    <td class="text-center">73</td>
+    <td class="text-center">42</td>
+    <td><code>                if(singleProgram.Programs[&#039;HD&#039;])</code></td>
+    <td>[&#039;HD&#039;] is better written in dot notation.</td>
 </tr>
     </table>
     <div class="well">
-    Found <span class="label label-default">10</span> failures - <span class="label label-danger">0 errors</span> &amp; <span class="label label-warning">10 warnings</span>
+    Found <span class="label label-default">12</span> failures - <span class="label label-danger">0 errors</span> &amp; <span class="label label-warning">12 warnings</span>
 </div>
 </div>
 
@@ -295,15 +307,21 @@
             <th>Reason</th>
         </tr>
         <tr><td colspan="5"><b>/home/user/suthakar/neo/client/src/common/directives/slickSlider.js</b></td></tr><tr class="warning">
-    <td class="text-center">W033</td>
+    <td class="text-center">W041</td>
     <td class="text-center">9</td>
+    <td class="text-center">44</td>
+    <td><code>                    if (slick.currentSlide == 0 &amp;&amp; !firstSlide.hasClass(&#039;animateFirst&#039;)) {</code></td>
+    <td>Use &#039;===&#039; to compare with &#039;0&#039;.</td>
+</tr><tr class="warning">
+    <td class="text-center">W033</td>
+    <td class="text-center">84</td>
     <td class="text-center">6</td>
     <td><code>    }</code></td>
     <td>Missing semicolon.</td>
 </tr>
     </table>
     <div class="well">
-    Found <span class="label label-default">1</span> failures - <span class="label label-danger">0 errors</span> &amp; <span class="label label-warning">1 warnings</span>
+    Found <span class="label label-default">2</span> failures - <span class="label label-danger">0 errors</span> &amp; <span class="label label-warning">2 warnings</span>
 </div>
 </div>
 

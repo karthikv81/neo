@@ -7,32 +7,47 @@
         </div>
         <div class="col-md-6 descBar">
             <div class="title">
-                <div>{{programInfo.Title}}</div>
-                <div class="infoCat">{{programInfo.Category}}<span>&nbsp;&#183;&nbsp;</span>{{programInfo.AiringTime}}<span>&nbsp;&#183;&nbsp;</span>{{programInfo.TVRating}}</div>
+                <div>{{programInfo.Title}} <span id="hdIcon">&nbsp;<img src="{{hdIcon}}"/></span></div>
             </div>
             <div class="description">
+                <span class="contentTitle">category:</span> <span class="contentVal">{{programInfo.Category}}</span><br/>
                 <span class="contentTitle">Sub category:</span> <span class="contentVal">{{programInfo.Subcategory}}</span><br/>
+                <span class="contentTitle">Airing Time:</span> <span class="contentVal">{{programInfo.AiringTime}}</span><br/>
+                <span ng-show="starRating"><span class="contentTitle">Parental Rating:</span> <span class="contentVal"><span>{{programInfo.TVRating}}</span></span><br/></span>
                 <span  class="contentTitle">Duration:</span> <span class="contentVal">{{programInfo.Duration}} min</span><br/>
-                <span id="hdIcon"><img src="./assets/img/hd_icon.gif"/></span>
+
             </div>
+        </div>
     </section>
 
 
     <section id="section4">
         <div id="tweetWidget">
-            <div class="tweetBtn"><button class="btn btn-primary btn-lg btn-block">Tweet</button></div>
+            <div class="tweetBtn"><button class="btn btn-primary btn-lg btn-block" ng-click="sendTweet()">Tweet</button></div>
             <div class="tweets">
                 <div>
+                    <span ng-show="tweetMsgShow" class="tweetMsg">Please wait for the Tweets.....</span>
                     <marquee>
-                        <ul  ng-http-loader ng-show="twits.length > 0">
+                        <ul ng-show="twits.length > 0">
                             <li data-ng-repeat="(key, value) in twits track by $index">
                                 {{value}}
                             </li>
                          </ul>
                     </marquee>
-                    <div ng-show="twits.length === 0" class="noTweet">No Tweets Available</div>
+                    <div ng-show="twits.length === 0" class="noTweet">Sorry! No Tweets Available</div>
                 </div>
             </div>
+        </div>
+        <div ng-show="tweetBtnClicked" class="tweetSuccessMsg">
+            Waiting ...........
+        </div>
+        <div ng-show="isTweetSuccess" class="tweetSuccessMsg">
+            Your Tweet is Successful.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="closeTweetMsg('success')"><span aria-hidden="true">×</span></button>
+        </div>
+        <div ng-show="isTweetFail" class="tweetFailedMsg">
+            Your Tweet is Failed.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="closeTweetMsg('failed')"><span aria-hidden="true">×</span></button>
         </div>
     </section>
 </div>

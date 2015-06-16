@@ -51,7 +51,11 @@ cloudStbApp.controller('programController', ['$scope', 'data', '$stateParams', '
         var _programList =  $scope.programList;
 
        // var _programInfo = {};
-
+        //Ask user to wait for tweets to come
+        $scope.tweetMsgShow = true;
+        $scope.starRating = true;
+        $scope.isHD = true;
+        $scope.hdIcon = './assets/img/sd.png';
         angular.forEach(_programList, function(singleProgram, key) {
             if (singleProgram.Programs['ProgramId'] === $stateParams.pid) {
 
@@ -64,14 +68,25 @@ cloudStbApp.controller('programController', ['$scope', 'data', '$stateParams', '
                 _programInfo.AiringTime = dateTime.getCustomStartEndTime(singleProgram.Programs['Duration'], singleProgram.Programs['AiringTime']);
                 _programInfo.Dolby = singleProgram.Programs['Dolby'];
                 _programInfo.Stereo = singleProgram.Programs['Stereo'];
+                _programInfo.HD = singleProgram.Programs['HD'];
                 _programInfo.key = key;
+                if(singleProgram.Programs['HD'])
+                    $scope.hdIcon = './assets/img/hd.png';
 
                 $scope.programInfo = _programInfo;
+
+                if(_programInfo.TVRating == "None")
+                    $scope.starRating = false;
+
             }
         });
 
         //Read the twits against a program #hashTag
         twitter.getTwits(_programInfo.Title).then(function (response) {
+            //Since Tweet response has come, wait is over
+            $scope.tweetMsgShow = false;
+
+            //Set the tweet data
             $scope.twits = response.data.tData;
 
         }, function (error) {
@@ -81,11 +96,33 @@ cloudStbApp.controller('programController', ['$scope', 'data', '$stateParams', '
 
     //Tweet the current program
     $scope.sendTweet = function () {
+        //Show the default Tweet Button clicked Msg
+        $scope.tweetBtnClicked = true;
+
         twitter.sendTweets(_programInfo.Title).then(function (response) {
-            console.log(response);
+            //Hide the default Tweet Button clicked Msg
+            $scope.tweetBtnClicked = false;
+
+            //Show the tweet success message
+            $scope.isTweetSuccess = true;
         }, function (err) {
-            console.log(err);
+            //Hide the default Tweet Button clicked Msg
+            $scope.tweetBtnClicked = false;
+
+            //Show the tweet failure message
+            $scope.isTweetFail = true;
         });
+    };
+
+    //Close the tweet alert message area
+    $scope.closeTweetMsg = function (type) {
+        if (type === 'success' ) {
+            //Hide the tweet success message
+            $scope.isTweetSuccess = false;
+        } else {
+            //Hide the tweet failure message
+            $scope.isTweetFail = false;
+        }
     };
 
 }]);

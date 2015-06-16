@@ -1,17 +1,29 @@
 // File Name: app.js
 var cloudStbApp = angular.module('cloudStbApp', ['ui.router', 'ct.ui.router.extras']);
 
+/*$(document).ready(function(){
+    window.location.reload(true);
+    console.log('document');
+    window.location.reload = false;
+    return;
+});
+
+window.onload = function() {
+    if(window.location.hash === '#/') {
+        window.location = window.location + '#loaded';
+        window.location.reload();
+    }
+}*/
+
 cloudStbApp.config(function($stateProvider, $stickyStateProvider, $urlRouterProvider) {
     $stickyStateProvider.enableDebug(true);
-
     var states = [];
     states.push({   name: 'tabs',
         url: '/',
         views: {
         '@':   { templateUrl: 'templates/partials/tabs.tpl.html',
                  controller: function () {
-
-                    /* settings_manager.getLastLcn(function(lcn) {
+                     /*settings_manager.getLastLcn(function(lcn) {
                          log.error('First Play');
                          getLcn(lcn);
                      });*/
@@ -35,7 +47,8 @@ cloudStbApp.config(function($stateProvider, $stickyStateProvider, $urlRouterProv
         },
         resolve: { foo: function() {
                         console.log("resolving 'foo' for tabs.viewbychannel");
-                        return "foo"; }
+                        return "foo";
+            }
         },
         deepStateRedirect: true,
         sticky: true
