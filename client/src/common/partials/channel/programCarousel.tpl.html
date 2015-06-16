@@ -4,7 +4,7 @@
         <div class="innerCarouselDiv" ng-repeat="program in programList track by $index"><a ui-sref=".programInfo({pid: program.Programs['ProgramId']})" class="programCarousel">{{ program.Programs["Title"] }}</a></div>
     </slick>-->
 
-    <div slick-slider="{dots: false, arrows: false, draggable: false, slidesToShow:5, infinite:true}">
+    <div slick-slider="{dots: false, arrows: false, draggable: false, slidesToShow:3, infinite:true, centerPadding:'60px', infinite:true, focusOnSelect: true,variableWidth: true}">
         <div class="my-slide" ng-repeat="program in programList track by $index">
             <a ui-sref=".programInfo({pid: program.Programs['ProgramId']})" class="programCarousel">{{ program.Programs["Title"] | limitTo: 38}}</a>
         </div>
