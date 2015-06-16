@@ -41,7 +41,7 @@ cloudStbApp.controller('programController', ['$scope', 'data', '$stateParams', '
         /*  VideoPlayer.play(_videoURL);*/
        // VideoPlayer.play('192.168.0.33/epg/WebKit.mp4');
 
-        playMyChannel(_channelIndex);
+        //playMyChannel(_channelIndex);
     }
 
     var _programInfo = {};
