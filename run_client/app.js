@@ -14,6 +14,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
+
+app.set('view engine', 'jade');
+
 // 'dist' folder in 'client' contains the application files
 app.use(express.static(path.join(__dirname, '../client/dist')));
 
