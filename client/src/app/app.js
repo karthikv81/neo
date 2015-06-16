@@ -1,5 +1,5 @@
 // File Name: app.js
-var cloudStbApp = angular.module('cloudStbApp', ['ui.router', 'ct.ui.router.extras']);
+var cloudStbApp = angular.module('cloudStbApp', ['ui.router', 'ct.ui.router.extras', 'cloudStbApp.config']);
 
 /*$(document).ready(function(){
     window.location.reload(true);

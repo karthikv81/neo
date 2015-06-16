@@ -1,12 +1,15 @@
-cloudStbApp.factory('data', [ '$http', '$q', function ($http, $q) {
+cloudStbApp.factory('data', [ '$http', '$q', 'WEBSERVICE_CONFIG', function ($http, $q, WEBSERVICE_CONFIG) {
 
   // Following function gives all channels
   function getChannelList () {
+    //Set the URL path
+    var _url = WEBSERVICE_CONFIG.SERVER_URL + '/epg/channels?user=rovi';
+
     // $http returns a promise for the url data
-    return $http({method: 'GET', url: 'http://192.168.0.99:8080/epg/channels?user=rovi'});
+    return $http({method: 'GET', url: _url});
   }
 
-  // Following function gives program info for every channel
+  // Following function gives program info for every channel - NOT USED NOW
   function getProgramInfo (urlList) {
     var deferred = $q.defer();
 
@@ -41,7 +44,7 @@ cloudStbApp.factory('data', [ '$http', '$q', function ($http, $q) {
       var userStartTime = '2015-06-15T08:00:00Z',
           userEndTime = '2015-06-15T20:30:00Z';
 
-      var _url = 'http://192.168.0.99:8080/epg/programs?user=rovi&sourceId=' + sourceID + '&userStartTime=' + userStartTime + '&userEndTime=' + userEndTime;
+      var _url = WEBSERVICE_CONFIG.SERVER_URL + '/epg/programs?user=rovi&sourceId=' + sourceID + '&userStartTime=' + userStartTime + '&userEndTime=' + userEndTime;
 
       return $http({method: 'GET', url: _url});
   }
