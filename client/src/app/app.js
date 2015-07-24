@@ -1,20 +1,6 @@
 // File Name: app.js
 var cloudStbApp = angular.module('cloudStbApp', ['ui.router', 'ct.ui.router.extras', 'cloudStbApp.config']);
 
-/*$(document).ready(function(){
-    window.location.reload(true);
-    console.log('document');
-    window.location.reload = false;
-    return;
-});
-
-window.onload = function() {
-    if(window.location.hash === '#/') {
-        window.location = window.location + '#loaded';
-        window.location.reload();
-    }
-}*/
-
 cloudStbApp.config(function($stateProvider, $stickyStateProvider, $urlRouterProvider) {
     $stickyStateProvider.enableDebug(true);
     var states = [];
@@ -104,33 +90,9 @@ cloudStbApp.config(function($stateProvider, $stickyStateProvider, $urlRouterProv
 
     $urlRouterProvider.otherwise("/");
 
-
-
-  /**
-   * OLD CODE to be removed
-   * $urlRouterProvider.otherwise("/guide");
-
-  $stateProvider
-    .state('guide', {
-      url: "/guide",
-      templateUrl: "templates/guide/guide.tpl.html",
-      resolve: {
-        channelData: function (data) {          
-          return data.getChannelList();
-        }
-      },
-      controller: 'guideController'
-    });*/
 });
 
 cloudStbApp.run(function ($rootScope, $state, $window, $timeout, EventManagerService, KeyHandlerService) {
     $rootScope.$state = $state;
     $rootScope.$on("$stateChangeSuccess", function() {});
-
-    //Initialize the Keyboard Service
-   /* EventManagerService.init();
-
-    EventManagerService.on(function (key, evt) {
-        KeyHandlerService.move(key, evt);
-    });*/
 });

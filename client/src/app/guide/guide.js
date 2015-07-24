@@ -125,4 +125,17 @@ cloudStbApp.controller('programController', ['$scope', 'data', '$stateParams', '
         }
     };
 
+    $scope.share = function(post){
+        FB.ui(
+            {
+                method: 'feed',
+                name: 'This is the content of the "name" field.',
+                link: 'http://www.hyperarts.com/external-xfbml/',
+                picture: 'http://www.hyperarts.com/external-xfbml/share-image.gif',
+                caption: "Test",
+                description: 'This is the content of the "description" field, below the caption.',
+                message: ''
+            });
+    }
+
 }]);

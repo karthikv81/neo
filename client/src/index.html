@@ -6,6 +6,19 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
+<div id="fb-root"></div>
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({appId: '668782709889660', status: true, cookie: true,
+            xfbml: true});
+    };
+    (function() {
+        var e = document.createElement('script'); e.async = true;
+        e.src = document.location.protocol +
+        '//connect.facebook.net/en_US/all.js';
+        document.getElementById('fb-root').appendChild(e);
+    }());
+</script>
 <!--<div class="overlay"></div>-->
 <!-- Full Screen Video-->
 <!--<video width=1920 height=1080 preload="auto" id="bgvid">
